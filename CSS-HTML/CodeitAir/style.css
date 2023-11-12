@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.big-title-background{
+    background-color: #11172b;
+}
+
+.big-title-container{
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.big-title-container h1{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-left: 16px;
+}
+
+.big-title-container span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.big-title-container-image{
+    height: 24px;
+}
+
+.notion-container{
+    margin: 0 auto;
+    max-width: 640px;
+    display: flex;
+    border-bottom: 1px dotted #b6bfd3;
+}
+
+.notion{
+    background-color: #ebeff8;
+    border-radius: 8px;
+    margin: 40px auto 20px;
+    padding: 24px 32px;
+}
+
+.departure{
+    display: flex;
+    height: 12px;
+    color: #b3bdd5;
+    
+}
+
+.departure-text{
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.where-to-go{
+    font-size: 32px;
+    font-weight: 900;
+    font-family: "Titillium Web";
+    color: #000000;
+    margin: 8px auto 24px;
+}
+
+.big-schedule{
+    background-color: #ffffff;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    border-radius: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+
+.caution{
+    font-size: 12px;
+    color: #b3bdd5;
+}
+
+.ticket-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 640px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.ticket-no{
+    padding: 8px 24px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Titillium Web";
+    color: #16bf97;
+    border-bottom: 1px solid #dbf1ec;
+}
+
+.ticket-info{
+    padding: 26px 24px;
+    margin: 4px;   
+}
+
+.ticket-info-titles{
+    font-size: 12px;
+    font-weight: 500;
+    color: #b3bdd5;
+}
+
+.ticket-info-departure-arrival{
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a345e;
+}
+
+.ticket-info-airplane{
+    font-size: 16px;
+    color: #0b1f66;
+}
+
+.airplane-logo{
+    width: 18px;
+    margin: 0 10px;
+}
+
+.ticket-utilites{
+    font-size: 14px;
+    font-weight: 500px;
+    color: #1a345e;
+    text-align: right;
+    margin-top: 24px;
+}
+
+.ticket-utilites div{
+    margin-right: 24px;
+    display: inline;
+}
+
+
+

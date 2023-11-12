@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-image: url("bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+.upleft{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 12px 40px;
+}
+
+.upleft span{
+    font-weight: 400;
+}
+/* 세상의 모든 화폐 ~ 선도합니다 */
+.header-content{
+    padding: 80px 0px 280px;
+    
+}
+
+.header-content, .article, .careers{
+    margin: 0 auto;
+    width: 720px;
+}
+
+.header-content-tagline{
+    font-size: 20px;
+    font-weight: 500;
+    color: #8287a4;
+    margin: 12px 0;
+}
+
+.header-content-bigtagline{
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    line-height: auto;
+}
+
+.header-content p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #8287a4;
+    margin: 14px 0;
+}
+
+/*설명글들*/
+.bigtitle{
+    font-size: 36px;
+    font-weight: 700;
+    color: #161346;
+}
+
+.images-in-article{
+    border-radius: 24px;
+    height: auto;
+    margin: 42px auto 32px;
+    width: 720px;
+}
+
+.instructions{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c497b;
+}
+
+.link-in-article{
+    margin: 32px auto 64px;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #413c91;
+    border-radius: 8px;
+    text-align: center;
+    display: block;
+}
+
+/* 커리어 부분 */
+.careers{
+    text-align: center;
+}
+
+.careers .bigtitle{
+    font-size: 32px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 40px 8px;
+}
+.careers .instructions{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8287a4;
+}
+.careers .link{
+    background-color: #413c91;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 9999px;
+    display: inline-block;
+    
+}
+
+.last-text{
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d9d9d9;
+}

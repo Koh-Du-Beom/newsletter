@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    width: 320px;
+}
+
+html{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 120px auto;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 16px 0 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2c2c;
+}
+
+input {
+    display: block;
+    padding: 16px 24px;
+    margin: 8px 0px 16px;
+    color: #ababab;
+}
+
+button {
+    border: none;
+    display: block;
+    padding: 16px;
+    background-color: #2c2c2c;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 24px 0
+}
+
+a{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.question{
+    color: #ababab;
+}
